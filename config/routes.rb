@@ -4,6 +4,7 @@ Rails.application.routes.draw do
       post "users/authenticate", as: :authenticate
       resources :users, only: [:index]
       resources :components, only: [:index]
+      post "directories/list", as: :directory_list
     end
   end
 end
