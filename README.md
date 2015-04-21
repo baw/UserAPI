@@ -47,13 +47,14 @@ rake db:seed
 
 ## Technologies
 
-I used Ruby on Rails for this API since its conventions proved a good foundation to
-rapidly build out a demo API.
+I used Ruby on Rails for this API since its conventions proved a good foundation
+to rapidly build out a demo API.
 
-I used PostgreSQL for the database since it's open source and has a very flexible licence.
+I used PostgreSQL for the database since it's open source and has a very
+flexible licence.
 
 ## Versioning
 
-API versioning is implemented through adding the version to the url since I feel
-this is a simpler design to both implement and to use the api then using a
-customer request header or the accept header.
+API versioning is implemented through adding the version to the url. I did it
+this way since I feel this is a simpler design to both implement and to use
+the API then using a customer request header or the accept header.
