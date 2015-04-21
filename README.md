@@ -45,6 +45,12 @@ optionally, you can seed the database:
 rake db:seed
 ```
 
+To run the specs use:
+
+```
+bundle exec rspec spec/
+```
+
 ## Technologies
 
 I used Ruby on Rails for this API since its conventions proved a good foundation
