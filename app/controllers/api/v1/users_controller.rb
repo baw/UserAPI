@@ -9,9 +9,17 @@ class Api::V1::UsersController < ApplicationController
     end
   end
   
+  def index
+    render json: User.filter_by_city_grouped_by_profession(index_params[:city])
+  end
+  
   private
   
   def auth_params
     params.permit(:username, :password)
+  end
+  
+  def index_params
+    params.permit(:city, :group)
   end
 end
