@@ -53,7 +53,7 @@ to rapidly build out a demo API.
 I used PostgreSQL for the database since it's open source and has a very
 flexible licence.
 
-## Versioning
+## API Versioning
 
 API versioning is implemented through adding the version to the url. I did it
 this way since I feel this is a simpler design to both implement and to use
