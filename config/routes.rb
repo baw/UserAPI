@@ -3,6 +3,7 @@ Rails.application.routes.draw do
     namespace :v1 do
       post "users/authenticate", as: :authenticate
       resources :users, only: [:index]
+      resources :components, only: [:index]
     end
   end
 end
